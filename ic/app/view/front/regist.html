@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sign</title>
+    <link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/regist.js"></script>
+  </head>
+  	<body>
+  		<div class="content" style="height: 600px; background-color: whitesmoke;">
+  			<div style="float:left; width: 23%; height: 100%;"></div>
+  			<div style="float:left; width: 54%; height: 100%; ">
+  				<div style="width: 100%; height: 30%; text-align: center;">
+  					<div style="width: 100%; height: 50%; "></div>
+  					<p style="font-size: 23px; font-weight: 100; margin-bottom: 0px;">注册一个IC账号</p>
+  					<p style="font-size: 25px; font-weight: 900;">拥有一个IC账号您才可以使用IC的全部功能</p>
+  					<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+  					<hr />
+  				</div>
+  				<div style="width: 100%; height: 70%; ">
+  					<div style="height: 10%; "></div>
+  					<form>	
+					  <div class="form-group">
+					    <label for="email">邮箱</label>
+					    <input type="email" class="form-control" id="email" placeholder="Email">
+					  </div>
+					  <div style="width: 100%;"></div>
+					  <div class="form-group" style="margin-top: 10px;">
+					    <label for="password">密码</label>
+					    <input type="password" class="form-control" id="password" placeholder="Password">
+					  </div>
+					  <div style="width: 100%;"></div>
+					  <div class="form-group" style="margin-top: 10px;">
+					  	<label for="verificatecode">请点击下图中的</label><span id="verques"></span>
+					  	<div style="width: 100%; height: 66px; border: solid 1px bisque;">
+					  		<div class="verimg" style="float: left; height: 100%; width: 25%; background-color: darkblue; text-align: center;" onclick="select(this)">
+					  			<div style="height: 30%;"></div>
+					  			<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+					  		</div>
+					  		<div class="verimg" style="float: left; height: 100%; width: 25%; background-color: darkcyan; text-align: center;" onclick="select(this)">
+					  			<div style="height: 30%;"></div>
+					  			<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+					  		</div>
+					  		<div class="verimg" style="float: left; height: 100%; width: 25%; background-color: darkgoldenrod; text-align: center;" onclick="select(this)">
+					  			<div style="height: 30%;"></div>
+					  			<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+					  		</div>
+					  		<div class="verimg" style="float: left; height: 100%; width: 25%; background-color: darkgreen; text-align: center;" onclick="select(this)">
+					  			<div style="height: 30%;"></div>
+					  			<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+					  		</div>
+					  	</div>
+					  </div>
+					  <div style="width: 100%;"></div>
+					  <button type="submit" style="margin-top: 10px;" class="btn btn-default">&nbsp;&nbsp;&nbsp;确&nbsp;认&nbsp;&nbsp;&nbsp;</button>
+					</form>
+  				</div>
+  			</div>
+  			<div style="float:left; width: 23%; height: 100%;"></div>
+  		</div>
+  		<div class="buttom" style="height: 200px;"></div>
+  		<div></div>
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
